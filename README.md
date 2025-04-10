@@ -1,5 +1,5 @@
 # Landig page para promover o Centro de Médico Borcelle e captar novos pacientes.
-#Como executar.
+# Como executar.
 Esta é uma landing page estática construída com HTML e CSS. Não requer nenhuma instação complexa para ser visualizada.
 Seu acesso é feito diretamente pelo navegador:
 1. Clone ou faça o download deste repositório para o seu computador. Você pode usar o seguinte comando no seu terminal:
