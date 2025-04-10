@@ -16,7 +16,7 @@ O projeto está hospedado no GitHub Pages, você pode acessá-lo diretamente atr
 
 [https://bruna-anjos.github.io/landing-page/#inicio]
 
-### Método 3: Utilizando um Servidor Local (Opcional - para desenvolvimento)
+### Método 3: Utilizando um Servidor Local 
 
 Embora não seja estritamente necessário para visualizar esta landing page, você pode usar um servidor local para desenvolvimento:
 
