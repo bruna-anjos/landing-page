@@ -1,78 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./styles.css" rel="stylesheet">
-    <title>Borcelle</title>
+    <title>Borcelle/ Centro Médico Especializado em Saúde e Bem-Estar</title>
 </head>
 
 <body>  
-    <div id="container">
-      <div class="logo-container">       
-            <img src="assets/image/centro médico1.jpg" alt="Centro médico1" class="logo">  
-      </div>
-      <div class="texto-central">
-        <h1 id= "title">Transforme sua vida com saúde e energia e perfomance máxima!</h1>
-          <h2 class="subtitle">Te ajudamos a alcançar o bem estar completo, uma vida com mais vitalidade e qualidade!</h2>
-      </div>
-    </div>              
-  </div>    
-        <div id="medicos-container">
-            <h2 class="subtitle-main" >Conheça nossa equipe médica.</h2>
+    
+      <header>
+        <main>
+          <div id="container">
+            
+              <img src="assets/image/nv tela.jpg" class="imagem-direita" alt="fundo de tela marmore">
+          
+          </div> 
+          
+          <div id="medicos-container">
+            <h2 class="subtitle-main" id="Conheca-nossa-equipe médica.">Conheça nossa equipe médica.</h2>
             <h3 class="legenda-main">Nossa equipe é reconhecida por seu compromisso genuíno com o sucesso de nossos pacientes.</h3>
-        </div>
+          </div>
             <div class="container-fotos">
             <figure>
-                <img src="assets/image/medico1.jpg">
+                <img src="assets/image/medico1.jpg" alt="Dr. Thales Felix">
                 <figcaption >Dr.Thales Felix- Nutricionista</figcaption>     
             </figure>
             <figure>
-                <img src="assets/image/medico3.jpg">
+                <img src="assets/image/medico3.jpg" alt="Dra. Ester Wanzele">
                 <figcaption >Dra.Ester Wanzele- Gastroenterologista</figcaption>
             </figure>
             <figure>
-                <img src="assets/image/medico4.jpg">
-                <figcaption >Dra.Bruna Loryn- Psicologo</figcaption>
+                <img src="assets/image/medico4.jpg" alt="Dra. Bruna Loryn">
+                <figcaption >Dra.Bruna Loryn- Psicóloga</figcaption>
             </figure>
             <figure>
-                <img src="assets/image/medico5.jpg">
+                <img src="assets/image/medico5.jpg" alt="Dr. Eliseu Koen">
                 <figcaption>Dr. Eliseu Koen- Médico</figcaption=>
             </figure>
           </div>
           <div id="servicos-container">
-            <h2 class="subtitle-main" >Conheça nossos serviços.</h2>
-            
-        </div>
-        
-                <div id="box-container">
-                                                     
-                    <img src="assets/image/examessite.jpg" id="exames"> 
-                    
-                    <div class="box-exames">
-                        <h1 class="box-title" >Exames </h1> 
-                    <p> Exames Laboratoriais e de Imagem.</p>
+            <h2 class="subtitle-main" id="servicos">Conheça nossos serviços.</h2>
+            <div id="box-container">
+              <div class="box-item">
+                <img src="assets/image/examessite.jpg" id="exames" alt="imagem ilustrativa de exame">
+                <div class="box-content">             
+                  <h3 class="box-title">Exames</h3>
+                   <p> Exames Laboratoriais e de Imagem.</p>
                     <p>Exames Nutricionais.</p>
                     <p>Composição Corporal.</p>
                     <p>Testes de Intolerância.</p>
                     <p>Avaliação de Metais Pesados.</p>
                     <p>Exames Laboratoriais.</p>
-                        <h1 class="box-title" >Tratamentos.</h1>
-                        <p>Avaliação Hormonal Personalizada.</p>
+                  
+                </div>
+              </div>
+
+              <div class="box-item">
+                <h3 class="box-title" >Tratamentos.</h3>
+                <div class="box-content">
+                  <p>Avaliação Hormonal Personalizada.</p>
                         <p>Terapia Reposição Hormonal.</p>
                         <p>Tratamento para Obesidade.</p>
                         <p>Saúde Óssea.</p>
                         <p>Planejamento Nutricional Personalizado.</p>
-                    </div>
                 </div>
+              </div>
             </div>
         </div>
-    </div> 
+    
     <div class="chamada-formulario">
         <h2>Estamos Prontos para Te Ajudar!</h2>
-        <p>Deixe suas informações no formulário abaixo <p> e um de nossos especialistas entrará em contato <p> para responder suas perguntas.</p>
+        <p>Deixe suas informações no formulário abaixo e um de nossos especialistas entrará em contato  para responder suas perguntas.</p>
     </div>
-    <form class="form-contato">
+    <form class="form-contato" action="processar/formulario" method="post">
         <div>
           <label for="nome">Nome:</label>
           <input type="text" id="nome" name="nome" required>
@@ -142,7 +143,7 @@
           <h3>Navegação</h3>
           <ul>
             <li><a href="#inicio">Início</a></li>
-            <li><a href="#conheça nossa equipe médica">Equipe Médica</a></li>
+            <li><a href="#conheca-nossa-equipe-médica">Equipe Médica</a></li>
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#contato">Contato</a></li>
           </ul>
@@ -152,6 +153,8 @@
       </div>
       </div>
     </footer>
-  </div>         
+  </div>
+</main>
+</header>         
 </body>
 </html>
